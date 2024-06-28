@@ -1,0 +1,46 @@
+.header {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+}
+
+.nav-list a {
+    margin-right: 32px;
+    color: #ffff;
+}
+
+.cart-delete:hover {
+    cursor: pointer;
+}
+.nav-cart-btn {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.cart-icon {
+    position: relative;
+}
+
+.cart-icon:hover {
+    transform:scale(1.05,1.05);
+    transition:transform 0.3s ease;
+}
+
+.cart-dot {
+    position: absolute;
+    top: 20%;
+    left: 85%;
+}
+
+@media (max-width: 767px) {
+    .cart-icon {
+        font-size: 24px;
+    }
+    .nav-list 
+      li{
+        margin: 4px 0;
+        a {
+            margin-right: 0px;
+            font-size: 32px;
+        }
+      }  
+}

@@ -1,0 +1,19 @@
+// 導入Sass
+@import "bootstrap/scss/functions";
+@import "./variables";
+@import "./utilities";
+@import "bootstrap/scss/bootstrap.scss";
+
+//導入字體
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+@import './_base';
+@import './_admin';
+@import './_main';
+@import './_front';
+@import './_header';
+@import './_footer';
+
+
+

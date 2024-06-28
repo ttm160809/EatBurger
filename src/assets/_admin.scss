@@ -1,0 +1,26 @@
+// aside-navbar
+.aside-navbar {
+    min-width: 300px;
+    background-color: $gray-800;
+    i{
+        font-size: 24px;
+        color: white;
+        margin: 0 8px;
+    }
+}
+
+.aside-main {
+    margin-left: 300px;
+    width: calc(100% - 300px);;
+}
+
+.nav-item:hover {
+    cursor: pointer; // 滑鼠圖示改為小手
+    background-color: $gray-900;
+    color: black;
+}
+
+.page-active {
+    background: $primary;
+    pointer-events: none; // 無法被點選
+}
